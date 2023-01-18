@@ -2,22 +2,29 @@
 
 ## Project Description
 
-The conservation of wild animals and their worsening territories is a major concern these days. While it’s difficult to rapidly recover the damaged environment, zoo helps build and provide nice living areas for those animals and prevents species extinction. This inspired our group to design a Zoo management system database that helps stuffs to better manage the relationship among tourists, employees, animals, and animal shows. This system will also provide an overall graphical view of the zoo’s daily operations, from selling and booking different tickets to treating sick animals. In addition, this database can assist managers to have a clear image of the profit and customer flow during different periods of the year. The goal of this application is to help the zoo reduce time consumption, maintain organized running, and also cut paper usage wasting in order to better protect our environment throughout time.
+This project aims to provide a solution for some management difficulties of a zoo. By using our project, the manager of a zoo can achieve those functionalities with some simple clicks:
+1. The Zoo manager can project the general information of the customer and employees. The projection on the animal info is also achieved. (Selection & Projection)
 
-- Can record purchases in (with type, date, name), can see the    
-- anyone who want to track the money they spent
-- Most of the financial app is very complex and not easy to use, I want to make a simple and easy use one. 
+2. This system can show the schedule of the animal shows together with its location name on a selected date. (Join)
 
-An example of text with **bold** and *italic* fonts.  Note that the IntelliJ markdown previewer doesn't seem to render 
-the bold and italic fonts correctly but they will appear correctly on GitHub.
+3. The manager can add new employees to the system. (Insert)
 
-### Users Stories
-1. As a user, I want to be able to know the total money I spent so far
-2. As a user, I want to be able to add a purchase to my account book
-3. As a user, I want to be able to add a comment to my purchases
-4. As a user, I want to be able to add my purchase's types
-5. As a user, I want to be able to see my account book
-6. As a user, I want to be able to delete a purchase
-7. As a user, I want to be able to how many purchases
-8. As a user, I want to be able to save my account book to file
-9. As a user, I want to be able to load my account book to file
+4. The status of the breeder can also be alternated using this system (if the breeder
+change to another position in the zoo). (Update)
+
+5. Removing animals that no longer live in this zoo. (Delete)
+
+6. This system also analyzes the population of each species in this zoo. (Aggregation
+with Group by)
+
+7. By checking which shows have a profit above or below the average profit in the
+system, the manager can optimize the schedule for shows and achieve a higher
+income target. (Nested Aggregation with Group by)
+
+8. The manager may also use the project to see which animal is sick most often in each
+living space. (Aggregation with Having)
+
+9. Additional related stats for the animal that see all the doctor (still working) are also
+shown on the page. (Division)
+
+Our project not only accomplished the above functionalities. It also has a clear, user-friendly GUI that makes sure the zoo manager (user) can use it without any knowledge of the database.
