@@ -1,4 +1,5 @@
 # PHP-ZooDatabaseManagingSystem (backup)
+Credits: Jacqueline Jia, Zoe Yuan, Chris Zhou (end-to-end collaboration)
 
 ## Project Description
 
